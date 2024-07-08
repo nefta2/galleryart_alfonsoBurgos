@@ -2,7 +2,7 @@
 	max-width: 100%;
 	display: flex;
 	justify-content: center;
-	background-image: url('../../assets/flamingos-painting/flamingos-front-view.jpeg');
+	//background-image: url('../../assets/flamingos-painting/flamingos-front-view.jpeg');
 	background-size: cover;
 	background-position: center;
 	height: 100%;
@@ -38,6 +38,14 @@
 	align-items: center;
 }
 
+.leftDiv {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	height: 100%;
+}
 .centerDiv {
 	display: flex;
 	flex-direction: column;

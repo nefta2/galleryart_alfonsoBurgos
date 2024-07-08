@@ -1,18 +1,18 @@
 $white-letters: #ffffff;
-a {
-	color: #ffffff;
-}
+$dark-color-fonts: #1b1b1b;
+
 .navbar {
 	display: flex;
 	gap: 50px;
 	font-weight: 100;
 	width: 100%;
-	top: 30px;
 	left: 0px;
 	position: fixed;
 	justify-content: center;
-	color: $white-letters;
+	color: #ffffff;
 	z-index: 1;
+	height: 9%;
+	align-items: center;
 }
 
 .selected {

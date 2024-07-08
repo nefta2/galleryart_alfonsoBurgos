@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Route, BrowserRouter, Routes } from 'react-router-dom';
+import { Route, BrowserRouter, Routes, useLocation } from 'react-router-dom';
 import Home from './components/home/home';
 import Navbar from './components/navbar/navbar';
 import styles from './App.module.scss';
@@ -8,12 +8,15 @@ import Works from './components/works/works';
 import Contact from './components/contact/contact';
 
 function App() {
+	const location = window.location.pathname;
+	const isHomeActive = location === '/';
 	return (
 		<>
 			<BrowserRouter>
 				<Navbar />
 				<div
 					className={`${styles['main-page-wrapper']}  ${styles['pageWithSideBar']}`}
+					style={{ background: isHomeActive ? '#f2f2f2' : '#f2f2f2' }}
 				>
 					<Routes>
 						<Route path="" element={<Home />} />

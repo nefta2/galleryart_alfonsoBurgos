@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from './navbar.module.scss';
 import { NavLink, useLocation } from 'react-router-dom';
 import { color } from 'chart.js/helpers';
+import OwnButton from '../own-button/own-button';
 
 interface Option {
 	title: string;
@@ -15,9 +16,14 @@ const Navbar: React.FC = () => {
 		{ title: 'WORKS', link: '/works' },
 		{ title: 'CONTACT', link: '/contact' },
 	];
+	const location = useLocation();
+	const isHomeActive = location.pathname === '/';
 
 	return (
-		<div className={styles.navbar}>
+		<div
+			className={styles.navbar}
+			style={{ backgroundColor: isHomeActive ? '' : '#F1F1F1' }}
+		>
 			{options.map((option) => (
 				<NavLink
 					key={option.link}
@@ -25,7 +31,9 @@ const Navbar: React.FC = () => {
 					className={({ isActive }: { isActive: boolean }) =>
 						isActive ? styles.selected : styles.unselected
 					}
-					activeStyle={{ color: 'white' }}
+					style={{
+						color: isHomeActive ? 'white' : '#1b1b1b',
+					}}
 				>
 					<div>{option.title}</div>
 				</NavLink>

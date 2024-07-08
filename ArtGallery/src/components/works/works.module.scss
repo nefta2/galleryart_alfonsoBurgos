@@ -1,0 +1,88 @@
+$light-color-background: #f2f2f2;
+$dark-color-fonts: #1b1b1b;
+.root {
+	max-width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	position: relative;
+	background-color: #f2f2f2;
+	color: #1b1b1b !important;
+	align-items: center;
+	gap: 30px;
+	padding-top: 75px;
+	flex-direction: column;
+}
+
+.pictures {
+	display: flex;
+	gap: 27px;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+}
+
+.landingDiv {
+}
+
+.mainTitle {
+	font-size: 60px;
+	font-family: 'Forum', serif;
+	white-space: 'nowrap';
+}
+
+.artistDescription {
+	font-size: 18px;
+	font-family: 'Forum', serif;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	align-items: center;
+	text-align: center;
+}
+
+.leftDiv {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	justify-content: center;
+	position: relative;
+	align-items: center;
+	width: 50%;
+}
+
+.artistDiv {
+	background-image: url('../../assets/about-artist/artist.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 560px;
+	height: 545px;
+}
+
+.workAuraDiv {
+	background-size: cover;
+	background-position: center;
+	width: 383px;
+	height: 455px;
+}
+
+.secondDiv {
+	display: flex;
+	flex-direction: column;
+	gap: 54px;
+}
+
+.paintContainer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+}
+.paintItem {
+	display: flex;
+	width: 25%;
+	justify-content: center;
+}
