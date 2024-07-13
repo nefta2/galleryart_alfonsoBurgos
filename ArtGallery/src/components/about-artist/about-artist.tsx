@@ -16,14 +16,14 @@ function AboutArtist() {
 					<div className={styles.secondDiv}>
 						<div className={styles.artistDescription}>
 							<div>
-								Mi obra inicia con una intuición sensorial de los tonos a
-								pintar, seguido de la selección de los elementos que serán
-								protagonistas de la obra, los cuales extraigo de la naturaleza,
-								me gusta pintar flamencos, son mis favoritos, ya que sus colores
-								me recuerdan la alegría de un día de verano, también pinto
-								garzas inmersas en los pantanos rodeadas de la vegetación
-								silvestre que siempre esconde elementos sorpresas y que son
-								fuente de mi inspiración.{' '}
+								My work begins with a sensory intuition of the colors to paint,
+								followed by the selection of the elements that will be the
+								protagonists of the work, which I extract from nature. I like to
+								paint flamingos, they are my favorites, since their colors
+								remind me of the joy of a summer day. I also paint herons
+								immersed in the swamps surrounded by wild vegetation that always
+								hides surprising elements and that are a source of my
+								inspiration.{' '}
 							</div>
 						</div>
 						<OwnButton
