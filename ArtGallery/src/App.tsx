@@ -6,6 +6,7 @@ import styles from './App.module.scss';
 import AboutArtist from './components/about-artist/about-artist';
 import Works from './components/works/works';
 import Contact from './components/contact/contact';
+import PaintingDetails from './components/painting-details/painting-details';
 
 function App() {
 	const location = window.location.pathname;
@@ -22,6 +23,8 @@ function App() {
 						<Route path="" element={<Home />} />
 						<Route path="/about-artist" element={<AboutArtist />} />
 						<Route path="/works" element={<Works />} />
+						<Route path="/works/:path" element={<PaintingDetails />} />
+
 						<Route path="/contact" element={<Contact />} />
 					</Routes>
 				</div>

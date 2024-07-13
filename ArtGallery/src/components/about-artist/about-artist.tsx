@@ -4,9 +4,9 @@ import OwnButton from '../own-button/own-button';
 
 function AboutArtist() {
 	const workAura = [
-		'/src/assets/boat-painting/boat-main.jpg',
-		'/src/assets/boat-painting/boat-main.jpg',
-		'/src/assets/boat-painting/boat-main.jpg',
+		'/src/assets/about-artist/work-aura-1.jpeg',
+		'/src/assets/about-artist/work-aura-2.jpeg',
+		'/src/assets/about-artist/work-aura-3.jpeg',
 	];
 	return (
 		<div style={{ margin: '0px 30px', height: '100%' }}>

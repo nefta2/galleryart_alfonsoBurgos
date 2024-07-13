@@ -7,6 +7,7 @@ export interface OwnButtonProps {
 	colorChosen: String;
 	backgroundColorChosen: String;
 	link: String;
+	borderChosen?: String;
 }
 
 function OwnButton({
@@ -14,13 +15,20 @@ function OwnButton({
 	colorChosen,
 	backgroundColorChosen,
 	link,
+	borderChosen,
 }: OwnButtonProps) {
 	return (
 		<NavLink to={link}>
 			<div className={styles.buttonDiv}>
 				<div
-					//@ts-expect-error
-					style={{ color: colorChosen, background: backgroundColorChosen }}
+					style={{
+						//@ts-expect-error
+						color: colorChosen,
+						//@ts-expect-error
+						background: backgroundColorChosen,
+						//@ts-expect-error
+						border: borderChosen,
+					}}
 					className={styles.button}
 				>
 					{title}
