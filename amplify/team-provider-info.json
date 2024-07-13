@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-artgallery-dev-f46a2-authRole",
+      "UnauthRoleArn": "arn:aws:iam::730057764607:role/amplify-artgallery-dev-f46a2-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::730057764607:role/amplify-artgallery-dev-f46a2-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-artgallery-dev-f46a2-deployment",
+      "UnauthRoleName": "amplify-artgallery-dev-f46a2-unauthRole",
+      "StackName": "amplify-artgallery-dev-f46a2",
+      "StackId": "arn:aws:cloudformation:us-east-1:730057764607:stack/amplify-artgallery-dev-f46a2/b3965f20-4145-11ef-b2d1-0ea7c795c7a5",
+      "AmplifyAppId": "d1da2g0lkzyvvw"
+    }
+  }
+}

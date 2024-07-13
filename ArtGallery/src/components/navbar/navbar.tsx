@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styles from './navbar.module.scss';
 import { NavLink, useLocation } from 'react-router-dom';
-import { color } from 'chart.js/helpers';
-import OwnButton from '../own-button/own-button';
 
 interface Option {
 	title: string;

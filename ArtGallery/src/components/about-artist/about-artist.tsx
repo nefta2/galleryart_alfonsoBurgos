@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './about-artist.module.scss';
 import OwnButton from '../own-button/own-button';
 

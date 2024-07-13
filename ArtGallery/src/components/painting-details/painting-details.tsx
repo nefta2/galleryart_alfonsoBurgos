@@ -1,4 +1,3 @@
-import React from 'react';
 import { useParams } from 'react-router-dom';
 import styles from './painting-details.module.scss';
 import PaintingHorizontalCarrousel from '../painting-horizontal-carrousel/painting-horizontal-carrousel';

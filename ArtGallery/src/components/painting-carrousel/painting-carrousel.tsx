@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styles from './painting-carrousel.module.scss';
 
 export interface PaintingCarrouselProps {

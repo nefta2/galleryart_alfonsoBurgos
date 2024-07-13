@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styles from './home.module.scss';
 import OwnButton from '../own-button/own-button';
 import PaintingCarrousel from '../painting-carrousel/painting-carrousel';

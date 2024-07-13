@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { Route, BrowserRouter, Routes, useLocation } from 'react-router-dom';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import Home from './components/home/home';
 import Navbar from './components/navbar/navbar';
 import styles from './App.module.scss';

@@ -1,4 +1,3 @@
-import React from 'react';
 import OwnButton from '../own-button/own-button';
 import styles from './works.module.scss';
 

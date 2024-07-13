@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useState } from 'react';
 import styles from './painting-horizontal-carrousel.module.scss';
 
 export interface PaintingHorizontalCarrousel {
